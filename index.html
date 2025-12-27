@@ -1,1 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>gm</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- Optional: Elegant serif font similar to the example -->
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600&display=swap" rel="stylesheet">
+
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      height: 100vh;
+      background: #ffffff;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      font-family: 'Playfair Display', serif;
+      color: #000;
+    }
+
+    .logo {
+      width: 220px;
+      max-width: 70vw;
+      margin-bottom: 80px;
+    }
+
+    .nav {
+      font-size: 18px;
+      letter-spacing: 0.5px;
+    }
+
+    .nav a {
+      color: #000;
+      text-decoration: none;
+      margin: 0 10px;
+      transition: opacity 0.2s ease;
+    }
+
+    .nav a:hover {
+      opacity: 0.6;
+    }
+
+    /* Mobile spacing */
+    @media (max-width: 600px) {
+      .logo {
+        margin-bottom: 50px;
+      }
+
+      .nav {
+        font-size: 16px;
+        text-align: center;
+        line-height: 1.8;
+      }
+
+      .nav a {
+        display: inline-block;
+        margin: 0 6px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Logo -->
+  <img
+    src="gm_logo_transparent.png"
+    alt="gm logo"
+    class="logo"
+  />
+
+  <!-- Navigation -->
+  <div class="nav">
+    <a href="https://example.com/buy" target="_blank" rel="noopener noreferrer">buy gm</a> |
+    <a href="https://example.com/contract" target="_blank" rel="noopener noreferrer">contract</a> |
+    <a href="https://example.com/chart" target="_blank" rel="noopener noreferrer">chart</a> |
+    <a href="https://example.com/community" target="_blank" rel="noopener noreferrer">community</a> |
+    <a href="https://example.com/socials" target="_blank" rel="noopener noreferrer">socials</a>
+  </div>
+
+</body>
+</html>
 
